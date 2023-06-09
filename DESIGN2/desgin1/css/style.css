@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #dcdcdc;
+}
+main{
+    width: 90%;
+    margin: 0px auto;
+    background-color: white;
+}
+header{
+
+}
+header .logo{
+    float: left;
+    padding: 20px 40px;
+    color: cornflowerblue;
+}
+header nav{
+    float: right;
+}
+.clear{
+    clear: both;
+
+}
+nav ul{
+    padding: 30px 40px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.active{
+    color: cornflowerblue;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+.america,
+.eroupe,.asia{
+    padding:20px 30px;
+}
+.amrica img,
+.eroupe img{
+    float: left;
+    width: 690px;
+    height: 432px;
+}
+.america,
+.eroupe div{
+background-color: cornflowerblue;
+color: #fff;
+margin-top: 120px;
+margin-left: 10px;
+float: left;
+width: 480px;
+padding: 10px;
+}
+.america div a,
+.asia div a,
+.eroupe div a{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+.asia img{
+    float: right;
+    width: 654px;
+}
+    .aisa div{
+        background-color: cornflowerblue;
+        color: #fff;
+        margin-top: 60px;
+        margin-left: 10px;
+        float: left;
+        width: 480px;
+        padding: 10px;
+        }
+

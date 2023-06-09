@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: 6px solid black;
+   display: flex; /* it justify the left to right or center or left ,right,center*/
+    justify-content: flex-end;
+   /* display: inline-flex;
+    flex-wrap: wrap; it moves to next column*/
+    /*flex-wrap: wrap-reverse;  u can wrap or wrap reverse */
+}
+.flex-item{
+    font-size: 21px;
+    padding: 16px;
+    color: black;
+    text-align: center;
+  
+}
+.item-1{
+    background-color: green
+}
+.item-2{
+    background-color: blue;
+}
+.item-3{
+    background-color: purple;
+}
+.item-4{
+    background-color: orange;
+}
+.item-5{
+    background-color: pink;
+}
+.item-6{
+    background-color: violet;
+}
+.item-7{
+    background-color: #00BCD4;
+}
+
+.item-8{
+    background-color: darkorchid;
+}

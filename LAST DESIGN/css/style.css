@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+header{
+    background:url("https://in.images.search.yahoo.com/images/view;_ylt=Awr1RVQD_HRkVhM3pQu9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2E1MmRhNzBhMmI1OWY1ZGYyZjk3NTUzMDk4YTFjZGJhBGdwb3MDMzAEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dunsplash%26type%3DE210IN714G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D30&w=2500&h=1662&imgurl=images.unsplash.com%2F19%2Flighthouse.JPG%3Fixlib%3Drb-1.2.1%26q%3D85%26fm%3Djpg%26crop%3Dentropy%26cs%3Dsrgb&rurl=https%3A%2F%2Fjagodooowa.blogspot.com%2F2020%2F12%2Fpictures-unsplash-free-images-and-you.html&size=625.5KB&p=unsplash&oid=a52da70a2b59f5df2f97553098a1cdba&fr2=piv-web&fr=mcafee&tt=Pictures+Unsplash+Free+Images+%2F+And+you+can+also+find+loads+on+flickr+...&b=0&ni=21&no=30&ts=&tab=organic&sigr=V0rTODbOykhn&sigb=CgcfDde78l7e&sigi=WMQ8tOF_oYyz&sigt=5itMXcNbMw0E&.crumb=aEl5d1f2jwK&fr=mcafee&fr2=piv-web&type=E210IN714G0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+header section{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header section .logo{
+    padding: 30px 0px;
+    color: white;
+    font-size: 20px;
+}
+header section nav{
+    padding: 30px 0;
+
+}
+header section nav ul li{
+    list-style: none;
+    display: inline;
+   
+
+}
+header section nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color:white;
+
+}
+header section nav ul li a:hover,
+.active{
+    color: orange;
+}
+.banner_content{
+    width: 74%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+}
+.banner_content p{
+    color: orange;
+    font-family: sansita Swashed;
+    font-size: 20px;
+}
+.banner_content h1{
+    color: white;
+    font-size: 40px;
+
+}
+.banner_content small{
+    color: white;
+    font-size: 30px;
+}

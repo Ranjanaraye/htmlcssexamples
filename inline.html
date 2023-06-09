@@ -1,0 +1,72 @@
+
+<!---its shows the order of stack top of other menues one on one each box datsy use potion relative and z-index:100px how much heigher need*/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>First</title>
+    <style>
+        html{
+            background: gray;
+        }
+        body{
+            background: white;
+            height: 400px;
+        }
+        .block1{
+           position: relative;
+           z-index:100 ;
+            background: pink;
+            width: 300px;
+            height: 200px;
+        }
+        .block2{
+              
+            background-color: red;
+            margin: -60px 0 0 20px;
+            width: 300px;
+            height: 200px;
+        }
+        .float{
+            
+            background-color: lightblue;
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin: -150px 0 0 100px;
+        }
+        .inline{
+           
+            background: blue;
+            color: white;
+            margin: -60px 0 0 -120px;
+            padding: 10px 40px 10px 10px;
+            width: 200px;
+        }
+        .position{
+          
+            background: orange;
+            position: relative;
+            left: 180px;
+            top: -186px;
+            height: 110px;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="block1">
+    left
+    </div>
+    <div class="block2">
+        <p class="float">
+            float
+        </p>
+
+    <span class="inline">inline</span>
+   </div>  
+   <div class="position">position</div>
+</body>
+</html>

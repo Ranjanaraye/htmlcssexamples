@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing size</title>
+    <style>
+        
+        .result p {
+            height: 100px;
+            width: 300px;
+            padding: 1px soild red;
+            box-sizing: border-box;
+            background-color: orange;
+        }
+
+        .root p {
+            height: 100px;
+            width: 367px;
+            padding: 1px;
+            background-color: cornflowerblue;
+           
+        }
+    
+    </style>
+</head>
+
+<body>
+    <h1>Without Boxing</h1>
+    <div class="result"><p> This is smaller (width is 300px and height is 100px)</p> </div> <br />
+    <div class="root"><p>This is bigger (width is also 300px and height is 100px) </p></div>
+</body>
+
+</html>
